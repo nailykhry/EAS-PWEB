@@ -3,7 +3,7 @@ Repository ini digunakan untuk menyelesaikan Evaluasi Akhir Semester mata kuliah
 
 Anggota Kelompok :
 - Naily Khairiya (5025201244)
-- Rycahaya Sri Hutomo ()
+- Rycahaya Sri Hutomo (5025201046)
 - Sejati Bakti Raga ()
 
 
