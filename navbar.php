@@ -5,18 +5,18 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Chain App Dev">
+            <a href="index.php" class="logo">
+              <img src="assets/images/logoo.png" alt="Chain App Dev" style="width: 100px;">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
+              <li class="scroll-to-section"><a href="#daftar">Daftar Ujian</a></li>
+              <li class="scroll-to-section"><a href="#berkas">Upload Berkas</a></li>
+              <li class="scroll-to-section"><a href="#kartu">Cetak Kartu</a></li>
+              <li class="scroll-to-section"><a href="#ujian">Ujian</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
