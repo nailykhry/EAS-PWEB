@@ -11,6 +11,7 @@ Cara menggunakan repository ini:
 - Clone repository pada htdocs
 - Nyalakan Apache dan MySQL pada XAMPP
 - Buka web browser
+- import `cpns.sql` ke phpmyadmin
 - Ketikkan pada browser
 ```
 localhost/EAS-PWEB/index.php
