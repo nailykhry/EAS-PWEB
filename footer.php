@@ -70,7 +70,7 @@
           <div class="footer-widget">
             <h4>About Our Company</h4>
             <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
+              <img src="assets/images/logoo.png" alt="">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
           </div>
