@@ -112,6 +112,11 @@
                 padding: 15px;
                 font-family: "Poppins";
             }
+            img {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 10px;
+                width: 30%;
+            }
         </style>
     </head>
     <body>
@@ -121,7 +126,7 @@
         </header>
         <div class="container">
                 <a href="/kartu-peserta.pdf" download="kartu-peserta">
-                    <img src="/kartu-peserta.png" alt="W3Schools" width="30%">
+                    <img src="/kartu-peserta.png" alt="W3Schools">
                 </a>
                 <br>
                 <a href="kartu-peserta.pdf" download="kartu-peserta">
