@@ -125,8 +125,8 @@
             <h3>Berkas Anda telah terverifikasi. Silahkan unduh dan cetak kartu ujian Anda !</h3>
         </header>
         <div class="container">
-                <a href="/kartu-peserta.pdf" download="kartu-peserta">
-                    <img src="/kartu-peserta.png" alt="W3Schools">
+                <a href="kartu-peserta.pdf" download="kartu-peserta">
+                    <img src="/kartu-peserta.png" alt="kartu-peserta">
                 </a>
                 <br>
                 <a href="kartu-peserta.pdf" download="kartu-peserta">
