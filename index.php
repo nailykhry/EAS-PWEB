@@ -27,21 +27,8 @@
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-<<<<<<< HEAD
                     <h2>Seleksi Pegawai</h2>
                     <p>Kementrian Kelautan dan Perikanan Provinsi Jawa Timur</p>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="white-button first-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
-                    </div>
-                    <div class="white-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
-                    </div>
-=======
-                    <h2>SELEKSI PEGAWAI</h2>
-                    <p>Kementrian Kelautan dan Perikanan</p>
->>>>>>> 7cfb9fef30b0ae1c1e996c0383697224e61b66d0
                   </div>
                 </div>
               </div>
