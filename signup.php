@@ -100,7 +100,6 @@
             width: 50%;
             float: right;
             background: white;
-
         }
 
         h1{
