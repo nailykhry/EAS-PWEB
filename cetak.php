@@ -9,7 +9,7 @@
             }
 
         * {box-sizing: border-box}
-            form {
+            .container {
                 width: 100%;
                 float: left;
                 background: white;
@@ -78,7 +78,7 @@
             button:hover {
                 opacity:1;
             }
-            .submit {
+            .download {
                 padding: 14px 20px;
                 background: linear-gradient(122.06deg, #69C371 0%, #6AC46C 0.01%, #253F96 100.02%);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -116,48 +116,17 @@
     </head>
     <body>
         <header>
-            <h1>Upload Berkas</h1>
-            <h3>Silahkan Upload Berkas Anda !</h3>
+            <h1>Cetak Kartu Ujian</h1>
+            <h3>Berkas Anda telah terverifikasi. Silahkan unduh dan cetak kartu ujian Anda !</h3>
         </header>
-        <form>
-            <div class="form-group row">
-                <label for="foto" class="col-sm-2 col-form-label"><b>Foto Diri (4x6)</b></label>
-                <div class="col-sm-10">
-                    <input type="file" class="form-control" id="foto" >
-                </div>
-            </div>
-            
-            <div class="form-group row">
-                <label for="ijazah" class="col-sm-2 col-form-label"><b>Ijazah</b></label>
-                <div class="col-sm-10">
-                    <input type="file" class="form-control" id="ijazah">
-                </div>
-            </div>
-            
-            <div class="form-group row">
-                <label for="cv" class="col-sm-2 col-form-label"><b>CV</b></label>
-                <div class="col-sm-10">
-                    <input type="file" class="form-control" id="cv">
-                </div>
-            </div>
-            
-            <div class="form-group row">
-                <label for="transkipNilai" class="col-sm-2 col-form-label"><b>Transkip Nilai</b></label>
-                <div class="col-sm-10">
-                    <input type="file" class="form-control" id="transkipNilai">
-                </div>
-            </div>
-            
-            <div class="form-group row">
-                <label for="sertifikat" class="col-sm-2 col-form-label"><b>Sertifikat Akreditasi</b></label>
-                    <div class="col-sm-10">
-                    <input type="file" class="form-control" id="sertifikat">
-                </div>
-            </div>
-            <br>
-            <button type="submit" class="submit">Simpan</button>
-        
-        </form>
+        <div class="container">
+                <a href="/kartu-peserta.pdf" download="kartu-peserta">
+                    <img src="/kartu-peserta.png" alt="W3Schools" width="30%">
+                </a>
+                <br>
+                <a href="kartu-peserta.pdf" download="kartu-peserta">
+                    <button type="button" class="download">Unduh</button>
+                </a>
         </div>
     </body>
 <html>
