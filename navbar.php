@@ -16,7 +16,7 @@
               <li class="scroll-to-section"><a href="#berkas">Upload Berkas</a></li>
               <li class="scroll-to-section"><a href="#kartu">Cetak Kartu</a></li>
               <li class="scroll-to-section"><a href="#ujian">Ujian</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In</a></div></li> 
+              <li><div class="gradient-button"><a href="signup.php"><i class="fa fa-sign-in-alt"></i> Sign Up</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
