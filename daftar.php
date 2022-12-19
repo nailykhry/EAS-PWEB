@@ -170,10 +170,58 @@
                         <input type="text" class="form-control" id="telepon" placeholder="Nomor Telepon">
                     </div>
                 </div>
-                <button type="submit" class="submit">Simpan</button>
+                <button type="submit" name="simpan_pendaftaran" class="submit">Simpan</button>
                 </div>
             </div>
             </form>
         </div>
+
+
+        <?php 
+
+        if(isset($_POST['simpan_pendaftaran'])){
+
+            $nama               = $_POST['nama'];
+            $nik                = $_POST['nik'];
+            $tempatLahir        = $_POST['tempatLahir'];
+            $tanggalLahir       = $_POST['tanggalLahir'];
+            $jenisKelamin       = $_POST['jenisKelamin'];
+            $alamat             = $_POST['alamat'];
+            $pendidikan         = $_POST['pendidikan'];
+            $telepon            = $_POST['telepon'];
+
+            // query SQL untuk insert data
+            $query="UPDATE users SET U_nama='$nama', U_tempatLahir='$tempatLahir',
+                    U_tanggalLahir='$tanggalLahir', U_jenisKelamin='$jenisKelamin', U_alamat='$alamat',
+                    U_pendidikan='$pendidikan', U_telepon='$telepon'
+                    where U_NIK = $nik";
+
+            mysqli_query($conn, $query);
+
+            if (mysqli_query($conn, $query)) {
+
+            ?>
+                <script language='javascript'>
+                    alert('Berhasil mendaftar ujian, segera unggah berkas!');
+                </script>
+
+            <?php 
+            } else {
+            ?>
+
+                <script language='javascript'>
+                    alert('Mohon ulangi!');
+                </script>
+
+            <?php 
+            }
+        }
+        ?>
+        
+
+
     </body>
 <html>
+
+
+

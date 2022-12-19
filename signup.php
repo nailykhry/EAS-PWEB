@@ -1,3 +1,45 @@
+<?php 
+ 
+include 'dbconnect.php';
+ 
+error_reporting(0);
+ 
+session_start();
+ 
+if (isset($_SESSION['nik'])) {
+    header("Location: index.php");
+}
+ 
+if (isset($_POST['signup'])) {
+    $nik = $_POST['nik'];
+    $email = $_POST['email'];
+    $password = md5($_POST['psw']);
+ 
+  
+        $sql = "SELECT * FROM users WHERE nik='$nik'";
+        $result = mysqli_query($conn, $sql);
+        if (!$result->num_rows > 0) {
+            $sql = "INSERT INTO users (U_NIK, U_email, U_password)
+                    VALUES ('$nik', '$email', '$password')";
+            $result = mysqli_query($conn, $sql);
+            if ($result) {
+                echo "<script>alert('Selamat, registrasi berhasil!')</script>";
+                $username = "";
+                $email = "";
+                $_POST['password'] = "";
+                $_POST['cpassword'] = "";
+            } else {
+                echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
+            }
+        } else {
+            echo "<script>alert('Woops! Email Sudah Terdaftar.')</script>";
+        }
+         
+  
+}
+ 
+?>
+
 <!DOCTYPE html>
 <head>
     <title>Sign Up</title>
@@ -34,7 +76,7 @@
           <p style="font-size: small;">Dengan membuat akun ini, anda setuju dengan ketentuan <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
       
           <div class="clearfix">
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="submit" name="signup" class="signupbtn">Sign Up</button>
           </div>
           <div class="clearfix">
             <button type="button" class="cancelbtn">Cancel</button>
