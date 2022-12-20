@@ -1,84 +1,47 @@
 <footer id="newsletter">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-3">
-          <form id="search" action="#" method="GET">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <h4>Hubungi Kami</h4>
+            <p>Surabaya - SBY, 60235, Indonesia</p>
+            <p><a href="#">Telp. (031) 8281672</a></p>
+            <p><a href="#">Fax. (031) 8288148</a></p>
+            <p><a href="#">diskanla@jatimprov.go.id</a></p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>About Us</h4>
+            <h4>Layanan Pengguna</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Ketentuan Layanan</a></li>
+              <li><a href="#">Kebijakan Privasi</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>Useful Links</h4>
+            <h4>Akun Saya</h4>
             <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
+              <li><a href="#">Masuk/Daftar</a></li>
+              <li><a href="#">Dokumen Saya</a></li>
+              <li><a href="#">Ujian</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>About Our Company</h4>
+            <h4>Tentang Kami</h4>
             <div class="logo">
               <img src="assets/images/logoo.png" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>Dinas Kelautan dan Perikanan Provinsi Jawa Timur berperan dalam membantu Gubernur melaksanakan urusan pemerintahan yang menjadi kewenangan Pemerintah Provinsi di bidang kelautan dan perikanan dan tugas pembantuan.</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+            <p>Copyright © 2022 Dinas Kelautan dan Perikanan Jawa Timur. All Rights Reserved. 
           </div>
         </div>
       </div>
